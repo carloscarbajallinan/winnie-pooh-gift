@@ -1,0 +1,17 @@
+# Ignorar binarios pesados compilados temporalmente
+build/
+dist/
+*.spec
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.env
+venv/
+.venv/
+
+# Temporales de trabajo
+scratch/
+extracted_poses/
+.user_uploaded/
